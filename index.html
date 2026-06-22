@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Claude Code × GitHub を試してみた！</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-content">
+      <div class="badge">🚀 体験レポート</div>
+      <h1>Claude Code を<br>GitHub で試したぞ！</h1>
+      <p class="subtitle">AI がコードを書いて、Issueに返信して、PRを作る。<br>未来のワークフローをリアルに体験してみた。</p>
+      <a href="#story" class="btn">どんな体験だったか見る</a>
+    </div>
+    <div class="hero-visual">
+      <div class="terminal" id="terminal">
+        <div class="terminal-bar">
+          <span class="dot red"></span>
+          <span class="dot yellow"></span>
+          <span class="dot green"></span>
+          <span class="terminal-title">claude-code</span>
+        </div>
+        <div class="terminal-body">
+          <div class="line" id="line1"></div>
+          <div class="line" id="line2"></div>
+          <div class="line" id="line3"></div>
+          <div class="cursor" id="cursor">▋</div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="features" id="story">
+    <div class="container">
+      <h2>体験したこと</h2>
+      <div class="cards">
+        <div class="card" data-delay="0">
+          <div class="card-icon">💬</div>
+          <h3>Issue に書くだけ</h3>
+          <p>GitHubのIssueに「@claude こんなページ作って」と書いたら、Claude が動き出した。</p>
+        </div>
+        <div class="card" data-delay="150">
+          <div class="card-icon">⚡</div>
+          <h3>自動でコードを生成</h3>
+          <p>HTML・CSS・JS を自動生成してコミット。人間がやる手間がゼロに。</p>
+        </div>
+        <div class="card" data-delay="300">
+          <div class="card-icon">🔀</div>
+          <h3>PRまで作ってくれる</h3>
+          <p>ブランチを切ってプッシュし、PRリンクまで用意してくれる完全自動化。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta">
+    <div class="container">
+      <h2>あなたも試してみる？</h2>
+      <p>Claude Code Action を導入するだけで、GitHub 上で AI ペアプログラマーが手に入る。</p>
+      <a href="https://github.com/anthropics/claude-code-action" class="btn btn-outline" target="_blank" rel="noopener noreferrer">
+        Claude Code Action を見る →
+      </a>
+    </div>
+  </section>
+
+  <footer>
+    <p>Made with ❤️ by Claude Code × GitHub Actions</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
